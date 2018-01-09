@@ -1,0 +1,27 @@
+﻿<main>
+    <div class="row justify-content-center">
+        <div class="container text-center">
+            <br />
+            <div class="jumbotron" style="display: {{{guestDisplay}}}">
+                <h1 class="display-3">Hello, guest!</h1>
+                <p class="lead">Please Log In our system in order to use it.</p>
+                <p>
+                    If you dont have registration yet, you can register <a href="/users/register">here.</a>
+                </p>
+            </div>
+            <br/>
+
+            <div class="jumbotron" style="display: {{{authenticated}}}">
+                <div><h1 class="display-3">Hello, .......!</h1>
+                    <p class="lead">You can view all contests or review your submissions.</p>
+                </div>
+                <div>
+                    <a class="btn btn-primary btn-lg" href="/contest/contest" role="button">Contests</a>
+                    <a class="btn btn-primary btn-lg" href="/submission/submission" role="button">Submissions</a>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</main>
