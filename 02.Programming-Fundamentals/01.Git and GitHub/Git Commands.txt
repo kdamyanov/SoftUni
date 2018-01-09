@@ -1,0 +1,25 @@
+git clone 
+
+git pull - сваля промените от сървера
+
+git status - проверява статуса на локалните файлове
+
+git add. - добавя всички папки
+git add loops - добавя определена папка
+
+git commit -m "add folder Loops" - качва промените на локалното репозитори
+
+git push - качва промените на сървера
+
+
+
+------------------------------------------------------------------------------
+git branch kiro - създаване на branch
+git checkout kiro - влизане във  branch Pesho
+git push origin kiro
+git push --set-upstream origin kiro
+
+git merge kiro - слива данните от един branch в друг
+git branch -d kiro - изтрива branch локално 
+git push origin --delete kiro - изтрива branch от сървера
+------------------------------------------------------------------------------
